@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://al7arthy.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/cairo": "^5.2.6",
@@ -17,6 +20,7 @@
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "i18next": "^25.3.2",
     "postcss": "^8.5.6",
     "react": "^19.1.0",
