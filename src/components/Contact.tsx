@@ -67,12 +67,12 @@ const Contact: React.FC = () => {
                                         {t("contact.website")}
                                     </h4>
                                     <a
-                                        href="https://al7arthy.me"
+                                        href="https://al7arthy.dev"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-600 dark:text-blue-400 hover:underline transition-colors duration-300"
                                     >
-                                        al7arthy.me
+                                        al7arthy.dev
                                     </a>
                                 </div>
                             </div>
