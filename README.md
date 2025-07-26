@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React, TypeScript, and cutting
 
 ## 🚀 Live Demo
 
-**🌐 [View Live Portfolio](https://al7arthy.github.io/portfolio/)**
+**🌐 [View Live Portfolio](https://al7arthy.dev)**
 
 ## ✨ Key Features
 
