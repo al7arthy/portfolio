@@ -20,12 +20,12 @@ const useGitHubStats = (username: string = "al7arthy") => {
                 setError(null);
 
                 // Fetch user profile
-                const userResponse = await fetch(`/api/github/users/${username}`);
+                const userResponse = await fetch(`https://api.github.com/users/${username}`);
                 if (!userResponse.ok) throw new Error('Failed to fetch user data');
                 const userData = await userResponse.json();
 
                 // Fetch repositories to calculate total stars
-                const reposResponse = await fetch(`/api/github/users/${username}/repos?per_page=100`);
+                const reposResponse = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
                 if (!reposResponse.ok) throw new Error('Failed to fetch repositories');
                 const reposData = await reposResponse.json();
 

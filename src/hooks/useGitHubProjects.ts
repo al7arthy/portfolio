@@ -132,7 +132,7 @@ const useGitHubProjects = (username: string = "al7arthy") => {
                 setProjects([]);
 
                 const response = await fetch(
-                    `/api/github/users/${username}/repos?sort=updated&per_page=20`
+                    `https://api.github.com/users/${username}/repos?sort=updated&per_page=20`
                 );
 
                 if (!response.ok) {
