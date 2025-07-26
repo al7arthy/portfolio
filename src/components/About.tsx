@@ -63,14 +63,14 @@ const About: React.FC = () => {
                                     Taif University
                                 </h4>
                                 <span className="text-sm text-gray-500 dark:text-gray-400">
-                                    2019 - Present
+                                    2023 - Present
                                 </span>
                             </div>
                             <p className="text-gray-600 dark:text-gray-300">
                                 {t("about.education.degree")}
                             </p>
                             <p className="text-gray-600 dark:text-gray-300">
-                                GPA: 3.56/4.00
+                                GPA: 3.68/4.00
                             </p>
                         </div>
                     </div>
